@@ -1,5 +1,6 @@
 import csv
-
+#The out put reportxx_bad.csv would have the homeologous mismatches (between A, B and D genome of wheat)
+# wrongly identfied as SNP from UNEAK GSB pipeline
 infile = open('reportxx.csv', 'r')
 goodfile = open('reportxx_good.csv', 'w')
 badfile = open('reportxx_bad.csv', 'w')
